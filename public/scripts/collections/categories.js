@@ -1,5 +1,4 @@
 // Represents a collection of categories. 
-
 var CategoryCollection = Backbone.Collection.extend({
   model: Category,
   url: '/categories'

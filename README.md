@@ -2,6 +2,7 @@
 
 ## DO Address:
 
+45.55.155.240:3000
 
 ## Spec:
 
@@ -14,8 +15,6 @@
 ## Api's, Modules:
 
 1."Animate.css" has a bunch of cool, fun, and cross-browser animations. I used to animate my Header. Shows great emphasis on diner's name and lets Rick dance.
-
-2. 
 
 ## Run On Local-Host:
 

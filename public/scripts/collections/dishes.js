@@ -1,5 +1,4 @@
 // Represents a collection of dishes. 
-
 var DishCollection = Backbone.Collection.extend({
   model: Dish,
   url: '/dishes'
