@@ -14,7 +14,7 @@
 
 ## Api's, Modules:
 
-1."Animate.css" has a bunch of cool, fun, and cross-browser animations. I used to animate my Header. Shows great emphasis on diner's name and lets Rick dance.
+1."Animate.css" Has A Bunch Of Cool, Fun, And Cross-Browser Animations. I Used To Animate My Header. Shows Great Emphasis On The Diner's Name and Lets Zombie Rick Dance.
 
 ## Run On Local-Host:
 
