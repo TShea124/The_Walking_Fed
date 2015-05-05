@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+  background: url("/images/dead.jpg");
+  background-size: 1800px 1800px;
+}      
+
+header {
+  text-align: center; 
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  color: red;
+  font-size: 7em;
+}
+
+#rick {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 15s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px
+}
+
+
+#dishesList {
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 1.5em;
+}
+
+#catname {
+  background-color: red;
+  border-radius: 5px;
+  font-family: 'Creepster', cursive;
+  color: white;
+  font-size: 2em;
+  display: inline;
+  padding: 0px 35px 0px 35px;
+}
+
+

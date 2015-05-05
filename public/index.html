@@ -1,0 +1,92 @@
+<!DOCTYPE>
+<html>
+  <head>
+
+    <!-- include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!-- include Underscore -->
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+
+    <!-- include Backbone -->
+    <script src="http://documentcloud.github.com/backbone/backbone-min.js"></script>
+
+    <!-- include our Backbone models, collections, and views -->
+    <script src = "/scripts/models/dish.js"></script>
+    <script src = "/scripts/collections/dishes.js"></script>
+    <script src = "/scripts/views/dish_views.js"></script>
+
+    <script src = "/scripts/models/category.js"></script>
+    <script src = "/scripts/collections/categories.js"></script>
+    <script src = "/scripts/views/category_views.js"></script>
+
+
+    <!-- adding styles -->
+    <link rel = "stylesheet" type = "text/css" href = "/css/style.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Creepster' rel='stylesheet' type='text/css'>
+
+
+    <link rel = "stylesheet" href = "/css/animate.css">
+
+  </head>
+  <body>
+  <header>
+    <h1 class="animated infinite pulse"> The Walking Fed </h1>
+    <img class="animated infinite swing" id = "rick" src="/images/Zombie.jpg">
+    <br>
+    <audio autoplay controls>
+    <source src="/media/MonsterMash.mp3">
+    </audio>
+      <ul id = "categoryList">
+      </ul>  
+      <div id = "addCategoryForm">
+      <input type="text" id="newCategoryName" placeholder="Category Name">
+      <button id = "addNewCategory">ADD CATEGORY</button>
+      </div>
+
+  </header>
+  <br>
+  <br>
+  <ul id = "dishesList">
+  </ul>
+  <br>
+  <div id = "addDishForm">
+      <input type="text" id="newDishName" placeholder="Dish Name">
+      <input type="text" id="newDishimage_url" placeholder="Dish Image">
+      <input type="text" id="newDishprice" placeholder="Dish Price">
+      <button id = "addNewDish">ADD DISH</button>
+  </div>
+
+  <script type="text/template" id = "dishTemplate">
+    <span class = "dish">
+    We have <%= dish.name %> for <%= dish.price %> dollars
+    <img src="<%= dish.image_url %>">
+    <button class = "editButton">Edit</button>
+    <button class = "deleteButton">Delete</button>
+    <br>
+    <br>
+    <br>
+    </span>
+    <span class = "editForm" style = "display: none">
+    <input type = "text" id = "newName<%= dish.id %>" value = "<%= dish.name %>"> 
+    has the current picture: 
+    <input type = "text" id = "newimage_url<%= dish.id %>" value = "<%= dish.image_url %>">
+    with a price: 
+    <input type = "text" id = "newprice<%= dish.id %>" value = "<%= dish.price %>">
+    <button class = "updateButton">Update</button>
+    </span>
+  </script>
+  <script type="text/template" id = "categoryTemplate">
+    <span class = "category">
+    <%= category.name %>
+    <button class = "edit2Button">Edit</button>
+    <button class = "delete2Button">Delete</button>
+    </span>
+    <span class = "editCategoryForm" style = "display: none">
+    <input type = "text" id = "newCategoryName<%= category.id %>" value = "<%= category.name %>"> 
+    <button class = "update2Button">Update</button>
+    </span>
+    </script>
+</body>
+</html>
