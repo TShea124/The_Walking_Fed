@@ -5,7 +5,7 @@
 
 ## Spec:
 
-1. A User Can Visit The Site, They Can See A List Of Dishes That Are Served At The Diner, As Well As An Image Associated With That Dish And The Price.
+1. A User Can Visit The Site; They Can See A List Of Dishes That Are Served At The Diner, As Well As An Image Associated With That Dish And The Price.
 2. A User Can Add New Dishes When New Supplies Come In.
 3. A User Can Remove Dishes That Aren't Popular At The Diner.
 4. A User Can Update The Price, Image, And Name Of The Dish Using The Site.
@@ -13,7 +13,7 @@
 
 ## Api's, Modules:
 
-1."animate.css" has a bunch of cool, fun, and cross-browser animations. I used to animate my Header. Shows great emphasis on diner's name and lets Rick dance.
+1."Animate.css" has a bunch of cool, fun, and cross-browser animations. I used to animate my Header. Shows great emphasis on diner's name and lets Rick dance.
 
 2. 
 
@@ -22,4 +22,4 @@
 1. Clone Project on Github. https://github.com/TShea124/The_Walking_Fed
 2. Install Node_Models. [npm install --save]
 3. Run The Server. [node server.js]
-4. In Your Browser, [localhost:3000] to connect to server.
+4. In Your Browser, [localhost:3000] to connect to serv
