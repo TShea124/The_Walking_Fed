@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   background: url("/images/dead.jpg");
   background-size: 1800px 1800px;
+  font-family: 'Creepster', cursive;
 }      
 
 header {
@@ -17,7 +18,7 @@ h1 {
 }
 
 #rick {
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 2.5s;
     -webkit-animation-delay: 15s;
     -webkit-animation-iteration-count: infinite;
 }
@@ -33,12 +34,12 @@ img {
   list-style-type: none;
   text-align: center;
   margin: 0 auto;
-  color: white;
+  color: red;
   font-size: 1.5em;
 }
 
 #catname {
-  background-color: red;
+  background-color: yellowgreen;
   border-radius: 5px;
   font-family: 'Creepster', cursive;
   color: white;

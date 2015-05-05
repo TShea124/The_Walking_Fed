@@ -15,6 +15,7 @@
     <script src = "/scripts/models/dish.js"></script>
     <script src = "/scripts/collections/dishes.js"></script>
     <script src = "/scripts/views/dish_views.js"></script>
+    <script src = "/scripts/routes/routes.js"></script>
 
     <script src = "/scripts/models/category.js"></script>
     <script src = "/scripts/collections/categories.js"></script>
@@ -55,12 +56,13 @@
       <input type="text" id="newDishName" placeholder="Dish Name">
       <input type="text" id="newDishimage_url" placeholder="Dish Image">
       <input type="text" id="newDishprice" placeholder="Dish Price">
+      <input type="integer" id="newDishcategory_id" placeholder="Category Number">
       <button id = "addNewDish">ADD DISH</button>
   </div>
 
   <script type="text/template" id = "dishTemplate">
     <span class = "dish">
-    We have <%= dish.name %> for <%= dish.price %> dollars
+    We have <%= dish.name %> for $<%= dish.price %> dollars
     <img src="<%= dish.image_url %>">
     <button class = "editButton">Edit</button>
     <button class = "deleteButton">Delete</button>
@@ -74,12 +76,14 @@
     <input type = "text" id = "newimage_url<%= dish.id %>" value = "<%= dish.image_url %>">
     with a price: 
     <input type = "text" id = "newprice<%= dish.id %>" value = "<%= dish.price %>">
+    in category number:
+    <input type = "integer" id = "newcategory_id<%= dish.id %>" value = "<%= dish.category_id %>">
     <button class = "updateButton">Update</button>
     </span>
   </script>
   <script type="text/template" id = "categoryTemplate">
     <span class = "category">
-    <%= category.name %>
+    <%= category.id %>  <%= category.name %> 
     <button class = "edit2Button">Edit</button>
     <button class = "delete2Button">Delete</button>
     </span>

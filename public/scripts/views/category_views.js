@@ -23,7 +23,7 @@ $(document).ready(function() {
     	// Persists the model in the database and triggers sync.
     	this.model.save();
 
-    },
+    	},
 
     	// Renders edit form
     	editCategory: function() {
