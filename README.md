@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 # The Walking Fed -- Project 2
 ##www.sheatom.com:3002/
 ![alt tag](public/images/deadcopy.png)
 
 
 
+=======
+# The Walking Fed
+
+## DO Address:
+www.sheatom.com:3002
+>>>>>>> e7f9d221495eb4fb17d11f11fa4db873c7d4eb00
 
 ## Spec:
 
@@ -22,4 +29,8 @@
 1. Clone Project on Github. https://github.com/TShea124/The_Walking_Fed
 2. Install Node_Models. [npm install --save]
 3. Run The Server. [node server.js]
+<<<<<<< HEAD
 4. In Your Browser, [localhost:3002] to connect to serv
+=======
+4. In Your Browser, [localhost:3002] to connect to serv
+>>>>>>> e7f9d221495eb4fb17d11f11fa4db873c7d4eb00
