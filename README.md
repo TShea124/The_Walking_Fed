@@ -1,8 +1,7 @@
-# The Walking Fed -- Project 2
+# The Walking Fed
 
 ## DO Address:
-
-http://45.55.155.240:3000/
+www.sheatom.com:3002
 
 ## Spec:
 
@@ -21,4 +20,4 @@ http://45.55.155.240:3000/
 1. Clone Project on Github. https://github.com/TShea124/The_Walking_Fed
 2. Install Node_Models. [npm install --save]
 3. Run The Server. [node server.js]
-4. In Your Browser, [localhost:3000] to connect to serv
+4. In Your Browser, [localhost:3002] to connect to serv
